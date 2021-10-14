@@ -274,7 +274,7 @@
 @media screen and (min-width : 0) and (max-width : 768px){
     .trips {
         display: inline-block;
-        padding: 0 38px;
+        padding: 0 ;
     }
     
     .trip {
@@ -328,7 +328,7 @@
     
     .trips1 {
         display: inline-block;
-        padding: 0 38px;
+        padding: 0;
     }
     
     .trip1 {
@@ -336,7 +336,7 @@
     }
     .trips2 {
         display: inline-block;
-        padding: 0 38px;
+        padding: 0;
     }
     
     .trip2 {
