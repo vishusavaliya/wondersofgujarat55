@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../studio website/fontawesome-free-5.15.3-web/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="discover.html">
+    <link rel="stylesheet" href="about us.html">
+    <link rel="stylesheet" href="destination.html">
+    <link rel="stylesheet" href="contact.html">
+    <style>
+        h5 {
+            padding: 40px 0 10px 0;
+        }
+
+        .banner {
+            position: relative;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .banner img {
+            width: 100%;
+        }
+
+        .heading {
+            position: absolute;
+            top: 20%;
+            width: 100%;
+            font-size: 3rem;
+            text-shadow: 5px 5px 10px #ffffff;
+        }
+
+        .box5 {
+            width: 100%;
+            display: flex;
+            padding: 20px;
+        }
+
+        .box5 .rightbox5 {
+            width: 50%;
+            height: 500px;
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .box5 .leftbox5 {
+            width: 50%;
+            height: 500px;
+            padding: 0 0 0 100px;
+        }
+
+        .box5 .leftbox5 img {
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+        }
+
+        .box6 {
+            width: 100%;
+            display: flex;
+            padding: 20px;
+        }
+
+        .box6 .rightbox6 {
+            width: 50%;
+            height: 500px;
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .box6 .leftbox6 {
+            width: 50%;
+            height: 500px;
+            padding: 0 0 0 100px;
+        }
+
+        .box6 .leftbox6 img {
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+        }
+
+        .box7 {
+            width: 100%;
+            display: flex;
+            padding: 20px;
+        }
+
+        .box7 .rightbox7 {
+            width: 50%;
+            height: 500px;
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .box7 .leftbox7 {
+            width: 50%;
+            height: 500px;
+            padding: 0 0 0 100px;
+        }
+
+        .box7 .leftbox7 img {
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+        }
+
+        .box8 {
+            width: 100%;
+            display: flex;
+            padding: 20px;
+        }
+
+        .box8 .rightbox8 {
+            width: 50%;
+            height: 500px;
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .box8 .leftbox8 {
+            width: 50%;
+            height: 500px;
+            padding: 0 0 0 100px;
+        }
+
+        .box8 .leftbox8 img {
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+        }
+
+        .box9 {
+            width: 100%;
+            display: flex;
+            padding: 20px;
+        }
+
+        .box9 .rightbox9 {
+            width: 50%;
+            height: 500px;
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .box9 .leftbox9 {
+            width: 50%;
+            height: 500px;
+            padding: 0 0 0 100px;
+        }
+
+        .box9 .leftbox9 img {
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+        }
+
+        @media screen and (min-width : 0) and (max-width : 768px) {
+            .box5 {
+                display: inline-block;
+            }
+
+            .box5 .rightbox5 {
+                width: 100%;
+                height: 500px;
+                gap: 0;
+                padding: 0;
+            }
+
+            .box5 .leftbox5 {
+                width: 100%;
+                height: 300px;
+                padding: 20px 0 0 0;
+            }
+
+            .box5 .leftbox5 img {
+                width: 100%;
+                height: 300px;
+            }
+
+            .box6 {
+                display: inline-block;
+            }
+
+            .box6 .rightbox6 {
+                width: 100%;
+                height: 500px;
+                gap: 0;
+                padding: 0;
+            }
+
+            .box6 .leftbox6 {
+                width: 100%;
+                height: 300px;
+                padding: 20px 0 0 0;
+            }
+
+            .box6 .leftbox6 img {
+                width: 100%;
+                height: 300px;
+            }
+
+            .box7 {
+                display: inline-block;
+            }
+
+            .box7 .rightbox7 {
+                width: 100%;
+                height: 500px;
+                gap: 0;
+                padding: 0;
+            }
+
+            .box7 .leftbox7 {
+                width: 100%;
+                height: 300px;
+                padding: 20px 0 0 0;
+            }
+
+            .box7 .leftbox7 img {
+                width: 100%;
+                height: 300px;
+            }
+
+            .box8 {
+                display: inline-block;
+            }
+
+            .box8 .rightbox8 {
+                width: 100%;
+                height: 500px;
+                gap: 0;
+                padding: 0;
+            }
+
+            .box8 .leftbox8 {
+                width: 100%;
+                height: 300px;
+                padding: 20px 0 0 0;
+            }
+
+            .box8 .leftbox8 img {
+                width: 100%;
+                height: 300px;
+            }
+
+            .box9 {
+                display: inline-block;
+            }
+
+            .box9 .rightbox9 {
+                width: 100%;
+                height: 500px;
+                gap: 0;
+                padding: 0;
+            }
+
+            .box9 .leftbox9 {
+                width: 100%;
+                height: 300px;
+                padding: 20px 0 0 0;
+            }
+
+            .box9 .leftbox9 img {
+                width: 100%;
+                height: 300px;
+            }
+
+
+            .heading {
+                font-size: 2rem;
+                text-shadow: 5px 5px 10px #ffffff;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="discover.html">Discover</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about us.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destination.html">Destination</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-md">
+        <img src="imgs/wonders of gujarat logo.png" style="width: 160px; height: 100px;" alt="">
+    </div>
+    <div class="container" style="text-align: center;">
+        <div class="row">
+            <div class="banner">
+                <img src="imgs/Hill-stations-Mumbai-unsplash.jpg" alt="img">
+                <h1 class="heading">ABOUT US</h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h1 style="text-align: center;">DISCOVER YOUR FAVOURITE DESTINATION</h1>
+    <div class="box5">
+        <div class="leftbox5">
+            <img src="imgs/Places-to-visit-in-Gujarat-during-winters.jpg" alt="">
+        </div>
+        <div class="rightbox5">
+            <h5>FEATURED</h5>
+            <br>
+            <h1>BOOK YOUR TRIP</h1>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate dicta vero deserunt non sapiente
+                molestiae, sed voluptatibus cum. Modi hic nesciunt id harum sapiente debitis inventore possimus unde
+                molestias nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit illo velit
+                ipsa cumque! Fugit quaerat, perspiciatis, eos distinctio rem suscipit laboriosam rerum obcaecati officia
+                porro est inventore maiores ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                eaque rem error sit in velit praesentium magnam tempore quasi quia quos consequatur accusamus, obcaecati
+                temporibus dicta cum ratione delectus. Modi.</p>
+            <button type="button" class="btn btn-outline-primary">
+                <a class="nav-link" href="destination.html">Book Now</a>
+            </button>
+        </div>
+    </div>
+    <div class="box6">
+        <div class="leftbox6">
+            <img src="imgs/1000x650-164.jpg" alt="">
+        </div>
+        <div class="rightbox6">
+            <h5>FEATURED</h5>
+            <br>
+            <h1>BOOK YOUR TRIP</h1>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate dicta vero deserunt non sapiente
+                molestiae, sed voluptatibus cum. Modi hic nesciunt id harum sapiente debitis inventore possimus unde
+                molestias nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit illo velit
+                ipsa cumque! Fugit quaerat, perspiciatis, eos distinctio rem suscipit laboriosam rerum obcaecati officia
+                porro est inventore maiores ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                eaque rem error sit in velit praesentium magnam tempore quasi quia quos consequatur accusamus, obcaecati
+                temporibus dicta cum ratione delectus. Modi.</p>
+            <button type="button" class="btn btn-outline-primary">
+                <a class="nav-link" href="destination.html">Book Now</a>
+            </button>
+        </div>
+    </div>
+    <div class="box7">
+        <div class="leftbox7">
+            <img src="imgs/Mahabat-Maqbara.jpg" alt="">
+        </div>
+        <div class="rightbox7">
+            <h5>FEATURED</h5>
+            <br>
+            <h1>BOOK YOUR TRIP</h1>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate dicta vero deserunt non sapiente
+                molestiae, sed voluptatibus cum. Modi hic nesciunt id harum sapiente debitis inventore possimus unde
+                molestias nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit illo velit
+                ipsa cumque! Fugit quaerat, perspiciatis, eos distinctio rem suscipit laboriosam rerum obcaecati officia
+                porro est inventore maiores ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                eaque rem error sit in velit praesentium magnam tempore quasi quia quos consequatur accusamus, obcaecati
+                temporibus dicta cum ratione delectus. Modi.</p>
+            <button type="button" class="btn btn-outline-primary">
+                <a class="nav-link" href="destination.html">Book Now</a>
+            </button>
+        </div>
+    </div>
+    <div class="box8">
+        <div class="leftbox8">
+            <img src="imgs/pexels-geronimo-gonzalez-giqueaux-2072842.jpg" alt="">
+        </div>
+        <div class="rightbox8">
+            <h5>FEATURED</h5>
+            <br>
+            <h1>BOOK YOUR TRIP</h1>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate dicta vero deserunt non sapiente
+                molestiae, sed voluptatibus cum. Modi hic nesciunt id harum sapiente debitis inventore possimus unde
+                molestias nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit illo velit
+                ipsa cumque! Fugit quaerat, perspiciatis, eos distinctio rem suscipit laboriosam rerum obcaecati officia
+                porro est inventore maiores ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                eaque rem error sit in velit praesentium magnam tempore quasi quia quos consequatur accusamus, obcaecati
+                temporibus dicta cum ratione delectus. Modi.</p>
+            <button type="button" class="btn btn-outline-primary">
+                <a class="nav-link" href="destination.html">Book Now</a>
+            </button>
+        </div>
+    </div>
+    <div class="box9">
+        <div class="leftbox9">
+            <img src="imgs/pexels-sonika-agarwal-5829962.jpg" alt="">
+        </div>
+        <div class="rightbox9">
+            <h5>FEATURED</h5>
+            <br>
+            <h1>BOOK YOUR TRIP</h1>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate dicta vero deserunt non sapiente
+                molestiae, sed voluptatibus cum. Modi hic nesciunt id harum sapiente debitis inventore possimus unde
+                molestias nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit illo velit
+                ipsa cumque! Fugit quaerat, perspiciatis, eos distinctio rem suscipit laboriosam rerum obcaecati officia
+                porro est inventore maiores ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                eaque rem error sit in velit praesentium magnam tempore quasi quia quos consequatur accusamus, obcaecati
+                temporibus dicta cum ratione delectus. Modi.</p>
+            <button type="button" class="btn btn-outline-primary">
+                <a class="nav-link" href="destination.html">Book Now</a>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container" style="text-align: center;">
+        <h3>WE DEVELOPED THE ART OF THE RECEIVING VISITORS & CATORING</h3>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus, laudantium tenetur, debitis
+            repudiandae rem voluptatem iure quis numquam similique sit unde modi dignissimos quo porro inventore harum a
+            blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde magni modi ex officiis iusto
+            exercitationem quas veritatis explicabo ea ratione, dolorem eligendi dolor aliquam quaerat! Quidem ab
+            tenetur repellat odio?</P>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus, laudantium tenetur, debitis
+            repudiandae rem voluptatem iure quis numquam similique sit unde modi dignissimos quo porro inventore harum a
+            blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde magni modi ex officiis iusto
+            exercitationem quas veritatis explicabo ea ratione, dolorem eligendi dolor aliquam quaerat! Quidem ab
+            tenetur repellat odio?</P>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus, laudantium tenetur, debitis
+            repudiandae rem voluptatem iure quis numquam similique sit unde modi dignissimos quo porro inventore harum a
+            blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde magni modi ex officiis iusto
+            exercitationem quas veritatis explicabo ea ratione, dolorem eligendi dolor aliquam quaerat! Quidem ab
+            tenetur repellat odio?</P>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus, laudantium tenetur, debitis
+            repudiandae rem voluptatem iure quis numquam similique sit unde modi dignissimos quo porro inventore harum a
+            blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde magni modi ex officiis iusto
+            exercitationem quas veritatis explicabo ea ratione, dolorem eligendi dolor aliquam quaerat! Quidem ab
+            tenetur repellat odio?</P>
+    </div>
+
+    <div class="footer">
+        <img src="imgs/wonders of gujarat logo.png"></a>
+    </div>
+    <div class="footer">
+        <p>@2021 WONDERS OF GUJARAT.All Rights Reserved.</p>
+    </div>
+    <div class="footer">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-pinterest"></i>
+    </div>
+    </div>
+</body>
+
+</html>
